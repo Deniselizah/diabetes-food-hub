@@ -1,26 +1,21 @@
-cat <<EOF > README.md
----
-language:
-- en
+# Diabetes Food Hub Scraping Project
 
-tags:
-- diabetes
-- nutrition
-- recipes
+This repository contains Python scripts used to scrape recipe and nutrition data from the Diabetes Food Hub.
 
-pretty_name: Diabetes Food Hub Recipes
-size_categories:
-- 1K<n<10K
-task_categories:
-- table-question-answering
+- **Website:** https://www.diabetesfoodhub.org/
+
+> **Note:** This project is for educational/research use. Please review the target site’s Terms of Service and robots.txt, and scrape responsibly (rate limiting, caching, and attribution).
+
 ---
 
-# Diabetes Food Hub Recipes
+## 📌 What’s Included
 
-This dataset contains nutritional information and ingredients for various meal categories scraped from the Diabetes Food Hub.
+- **Scraper scripts (`*.py`)**: Tools to collect recipe details, ingredients, and nutrition facts.
 
-## Dataset Details
-- **Source:** Diabetes Food Hub
-- **Format:** JSON
-- **Files:** Includes categories like Breakfast, Dinner, Vegan, and Low-Carb.
-EOF
+---
+
+## 🚀 Quick Start
+
+```bash
+pip install requests beautifulsoup4
+python3 scraper_script_name.py
