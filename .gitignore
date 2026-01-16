@@ -1,0 +1,42 @@
+python3 -m huggingface_hub cli login
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# API keys / secrets
+*.env
+*.json
+openai_api_key.txt
+huggingface_api_key.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+
+# Models
+models/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Training artifacts and logs
+**/tensorboard_logs/
+**/logs/
+*.tfevents.*
